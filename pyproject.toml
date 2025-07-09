@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework"
+version = "0.1.0"
+description = ""
+authors = ["Dan Charles <dan@dieselmilk.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gocardless-pro = "^2.6.0"
+oauth2client = "^4.1.3"
+requests-oauthlib = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
